@@ -16,7 +16,7 @@ def write_to_csv(urls, output_file):
 
 if __name__ == "__main__":
     base_url = "https://pic.my-nas8.top/covers/"
-    folder_path = "./imgs/covers/"
+    folder_path = "./imgs/"
     output_file = "url.csv"
     
     urls = generate_urls(folder_path, base_url)
